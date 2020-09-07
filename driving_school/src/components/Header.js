@@ -12,14 +12,14 @@ class Header extends React.Component {
   };
 
   render() {
-    const activeStatus = this.props.item;
-
+    const activeStatus = window.location.pathname;
+    console.log(window.location)
     return (
       <>
         <div className="ui top fixed inverted menu">
           <Link
             to="/"
-            className={`${activeStatus === "home" ? "active" : ""} item`}
+            className={`${activeStatus === "/" ? "active" : ""} item`}
             onClick={() => this.onInputClick("home")}
           >
             <i className="home icon"></i>
@@ -28,7 +28,7 @@ class Header extends React.Component {
 
           <Link
             to="/book-apnt"
-            className={`${activeStatus === "appointment" ? "active" : ""} item`}
+            className={`${activeStatus === "/book-apnt" ? "active" : ""} item`}
             onClick={() => this.onInputClick("appointment")}
           >
             <i className="clipboard check icon"></i>
@@ -36,17 +36,8 @@ class Header extends React.Component {
           </Link>
 
           <Link
-            to="/ancmt"
-            className={`${activeStatus === "announcement" ? "active" : ""} item`}
-            onClick={() => this.onInputClick("announcement")}
-          >
-            <i className="bullhorn icon"></i>
-            Announcement
-          </Link>
-
-          <Link
             to="/pkgs"
-            className={`${activeStatus === "packages" ? "active" : ""} item`}
+            className={`${activeStatus === "/pkgs" ? "active" : ""} item`}
             onClick={() => this.onInputClick("packages")}
           >
             <i className="boxes icon"></i>
@@ -54,8 +45,18 @@ class Header extends React.Component {
           </Link>
 
           <Link
+            to="/ancmt"
+            className={`${activeStatus === "/ancmt" ? "active" : ""} item`}
+            onClick={() => this.onInputClick("announcement")}
+          >
+            <i className="bullhorn icon"></i>
+            Announcement
+          </Link>
+
+         
+          <Link
             to="/as"
-            className={`${activeStatus === "about" ? "active" : ""} item`}
+            className={`${activeStatus === "/as" ? "active" : ""} item`}
             onClick={() => this.onInputClick("about")}
           >
             <i className="users icon"></i>
@@ -65,7 +66,7 @@ class Header extends React.Component {
           <div className="right menu">
             <Link
               to="/cs"
-              className={`${activeStatus === "contact" ? "active" : ""} item`}
+              className={`${activeStatus === "/cs" ? "active" : ""} item`}
               onClick={() => this.onInputClick("contact")}
             >
               <i className="phone icon"></i>

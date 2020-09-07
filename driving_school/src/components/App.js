@@ -12,10 +12,11 @@ import Footer from '../components/Footer';
 import history from '../histoy';
 
 const App = () => {
+
     return(
             <Router history={history}>
             <React.Fragment>
-                <Header />
+                <Header/>
 
                     <Route path="/" exact component={Home}/>
                     <Route path= "/book-apnt" component={Appointment}/>

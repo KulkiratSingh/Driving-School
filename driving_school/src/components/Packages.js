@@ -63,7 +63,7 @@ componentDidMount() {
             </div>
 
             <div className="ui labeled icon menu" id="menu" style={{backgroundColor: "#09296b"}}>
-                <Link  to="/pkgs/p1"
+                <Link  to="/pkgs"
                     id="menu_items_color" 
                     className={`${activePackageStatus === "package_1" ? "active" : ""} item`}
                     onClick={() => this.onBlueMenuClick("package_1")} 
@@ -119,7 +119,7 @@ componentDidMount() {
 
         <div className="sixteen wide column">
           <Switch>
-                <Route path="/pkgs/p1" exact component={Package1}/>
+                <Route path="/pkgs" exact component={Package1}/>
                 <Route path="/pkgs/p2" component={Package2}/>
                 <Route path="/pkgs/p3"  component={Package3}/>
                 <Route path="/pkgs/p4"  component={Package4}/>

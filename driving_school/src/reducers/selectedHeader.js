@@ -1,4 +1,4 @@
-export const selectedHeader = (activeStatus = "home", action) => {
+export const selectedHeader = (activeStatus = "", action) => {
   switch (action.type) {
     case "SELECTED_HEADER_TITLE":
       return action.payload;
