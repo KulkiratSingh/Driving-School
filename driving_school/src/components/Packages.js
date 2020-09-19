@@ -127,24 +127,6 @@ componentDidMount() {
                 <Package1 />
           </Switch>
 
-          {/* <div className="buttons" >
-            <div className="containerr">
-              <button className="btnn effect01" onClick={()=>  this.onButtonClick("true")}>
-                <span>Learne More !</span>
-              </button>
-              {(activeModalStatus === "true")?<Modal onDismiss={this.onDismiss}/>:null}
-            </div>
-          </div> */}
-
-          {/* <div className="buttons" id="btn_2" >
-            <div className="containerr">
-              <button className="btnn effect01" onClick={()=>  this.onButtonClick("true")}>
-                <span>Learne More !</span>
-              </button>
-              {(activeModalStatus === "true")?<Modal/>:null}
-            </div>
-          </div> */}
-
         </div>
         
     </div>
