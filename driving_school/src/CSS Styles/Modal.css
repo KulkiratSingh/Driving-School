@@ -1,4 +1,54 @@
-.colorStyle{
-    background: #09296b !important;
-    font: larger;
+.ui.standard.modal.visible.active {
+  margin-top: -480px;
+  width: 1300px;
+  padding-top: 1rem;
+  margin-left: 27px;
+  border: solid chocolate;
+}
+
+#table {
+  float: right;
+  margin-top: -310px;
+  margin-bottom: -40px;
+}
+
+#table2 {
+  float: right;
+  margin-top: -340px;
+  margin-bottom: -40px;
+}
+
+#modal_pos {
+  margin-top: -350px !important;
+  margin-top: 0px;
+}
+
+#book_now_modal_button {
+  float: left;
+}
+
+#goal {
+  width: 82%;
+}
+
+#in-class-lsns {
+  width: 83%;
+}
+
+#requr {
+  width: 85%;
+}
+
+#ins-sav {
+  width: 85%;
+}
+
+#fake-data-in-modal {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  font: 0.9em/1.45 "Raleway", sans-serif;
+}
+
+#small {
+  font-size: 0.7rem;
 }

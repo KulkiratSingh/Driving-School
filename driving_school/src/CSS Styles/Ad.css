@@ -73,6 +73,7 @@
   align-content: center;
   width: auto;
   margin: auto;
+
 }
 @keyframes topAnimation {
   from {
@@ -105,6 +106,7 @@
   color: #111;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
   margin-left: 1050px;
+  
 }
 
 .btn::after,
@@ -150,4 +152,8 @@
 .btn:hover::before {
   top: 0.5rem;
   left: 0.35rem;
+}
+
+.adv {
+  margin-bottom: 26px;
 }

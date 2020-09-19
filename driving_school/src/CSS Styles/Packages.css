@@ -23,6 +23,8 @@
   margin-left: 20px;
 }
 
+
+
 .Words {
   margin: 0 auto;
   padding: 80px 0;
@@ -92,31 +94,23 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: -20px;
+  background-color: #09296b;
 }
 
-.ui.dimmer {
+/* .ui.dimmer {
   padding-top: 1390px !important;
   position: absolute;
   margin-top: 0px;
   background-color: rgba(0, 0, 0, 0.74);
- 
-  
-}
-
-.ui.standard.modal.visible.active {
-  margin-top: -1350px;
-  width: 90%;
-
-}
-
+} */
 
 #menu_items_color {
   color: white;
   margin-left: 135px;
 }
 
-#btn_2{
-    display: flex;
+#btn_2 {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -124,7 +118,7 @@
   margin: 0 auto;
   margin-left: -1140px;
   margin-top: -133px;
-  margin-bottom: -40px; 
+  margin-bottom: -15px;
 }
 
 .buttons {
@@ -136,7 +130,7 @@
   margin: 0 auto;
   margin-left: 1150px;
   margin-top: -6px;
-  margin-bottom: -40px;
+  margin-bottom: -15px;
 
   /*   padding: 2em 0em; */
 }
@@ -150,7 +144,6 @@
   background-color: #fff;
   padding: 40px 0px;
   width: 240px;
-  
 }
 
 .btnn {
@@ -164,11 +157,9 @@
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
-
 }
 .btnn:hover {
   text-decoration: none;
-  
 }
 
 /*btn_background*/
@@ -191,7 +182,6 @@
 .effect01 span {
   transition: all 0.2s ease-out;
   z-index: 2;
-  
 }
 .effect01:hover span {
   letter-spacing: 0.13em;
@@ -222,3 +212,5 @@
   -webkit-transform: rotate(40deg);
   transform: rotate(40deg);
 }
+
+

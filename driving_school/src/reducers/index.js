@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
-import {selectedHeader, selectedPackages, } from "./selectedHeader";
-import authReducer from "./authReducer";
-import adsReducer from './adsReducer';
-import {modalReducer, modalReducer_leftButton} from "./modalReducer";
-import { Field , reducer as formReducer } from 'redux-form';
-
+import { selectedHeader, selectedPackages } from "./selectedHeader";
+import authReducer from './authReducer';
+import adsReducer from "./adsReducer";
+import {modalReducer,modalReducer_leftButton} from "./modalReducer";
+import { reducer as formReducer } from "redux-form";
+import formSubmitReducer from "./formSubmitReducer";
 
 export default combineReducers({
   header: selectedHeader,
@@ -13,7 +13,6 @@ export default combineReducers({
   package: selectedPackages,
   modal: modalReducer,
   left: modalReducer_leftButton,
-  form: formReducer
+  form: formReducer,
+  formSubmit: formSubmitReducer
 });
-
-

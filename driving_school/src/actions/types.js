@@ -1,2 +1,0 @@
-export const overview = "At Binary Driving School, we are committed to helping students become competent, responsible and defensive drivers. Binary driving school offers lessons for the young drivers of canada with a new approach to collision-free driving."
-export const offers= "The YD DEFENSIVE DRIVING course for new drivers OF ALL AGES includes:"

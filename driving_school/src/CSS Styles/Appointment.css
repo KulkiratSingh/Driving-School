@@ -1,6 +1,5 @@
 .main_pagee{
     background: url(apnt.png) no-repeat 220px 0 #fafafa;
-   
     width: 100%;
     height: 100%;
     display: block;
@@ -58,13 +57,15 @@
     right: 150px;
 }
 
+
+
 #calender_icon_p {
     font-size: 15px;
     font-weight: 400;
     color: #40535a;
     position: absolute;
     bottom: 170px;
-    right: 115px;
+    right: 140px;
 }
 
 
@@ -77,17 +78,17 @@
     text-align: center;
     padding: 15px;
     position: absolute;
-    bottom: 95px;
+    bottom: 93px;
     right: 455px;
 }
 
-#user_icon_text{
-    font-size: 18px;
-    font-weight: 500;
-    color: #40535a;
-    position: absolute;
-    bottom: 90px;
-    right: 150px;
+#user_icon_text_2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #40535a;
+  position: absolute;
+  bottom: 90px;
+  right: 225px;
 }
 
 #user_icon_p {
@@ -96,7 +97,7 @@
     color: #40535a;
     position: absolute;
     bottom: 35px;
-    right: 115px;
+    right: 185px;
 }
 
 #thumb {
@@ -118,7 +119,7 @@
     color: #40535a;
     position: absolute;
     bottom: -50px;
-    right: 150px;
+    right: 160px;
     
 }
 
@@ -128,77 +129,9 @@
     color: #40535a;
     position: absolute;
     bottom: -90px;
-    right: 115px;
+    right: 136px;
 }
 
-.btn-shine {
-    position: absolute;
-    top: 130px;
-    left: 250px;
-    transform: translate(-50%, -50%);
-    padding: 12px 48px;
-    color: rgb(0, 0, 0);
-    background: linear-gradient(to right, #994848 0, rgb(5, 5, 5) 10%, #272727 20%);
-    background-position: 0;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 5s infinite linear;
-    animation-fill-mode: forwards;
-    -webkit-text-size-adjust: 60px;
-    font-weight: 600;
-    font-size: 46px;
-    text-decoration: none;
-    white-space: nowrap;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    
-  
-  }
-
-  
-  @-moz-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 180px;
-    }
-    100% {
-      background-position: 180px;
-    }
-  }
-  @-webkit-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 180px;
-    }
-    100% {
-      background-position: 180px;
-    }
-  }
-  @-o-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 180px;
-    }
-    100% {
-      background-position: 180px;
-    }
-  }
-  @keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 230px;
-    }
-    100% {
-      background-position: 450px;
-    }
-  }
   
 #header-appoint1{
     color: rgb(255, 255, 255);
@@ -227,28 +160,18 @@
 }
 
 #dob {
-    height: 60%;
+    height: 60%; 
     
 }
 
-
-/* #full_name{
-    width: 60%;
+#text_apnt-head{
+  font: 3.2em/1.45 "Raleway", sans-serif;
+  color: #011a32;
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  font-weight: 500;
+   text-decoration-line: underline;
+  text-decoration-color: #011a32;
 }
 
-#last_name{
-    margin-left: -100px;
-}
-
-#last_name_input{
-    width: 60%;
-    margin-left: -100px;
-}
-
-#email {
-  
-}
-
-#email_input{
-    width: 60%; 
-} */
