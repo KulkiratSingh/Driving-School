@@ -1,0 +1,183 @@
+.main_pagee{
+    background: url(apnt.png) ;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 880px 0 30px;
+
+    position: relative;
+   
+}
+
+/* .main_pagee h1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 186px;
+    left: 16px;
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: #1f292e;
+    line-height: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+#advanced_text {
+    font-size: 30px;
+    color: #09c;
+    font-weight: 500;
+    
+    position: absolute;
+    bottom: 600px;
+    right: 276px;
+}
+
+
+.head span {
+    font-size: 36px;
+    display: block;
+    font-weight: 400;
+
+}
+
+#calender_icon {
+    position: absolute;
+    bottom: 530px;
+    right: 455px;
+    background: #09c;
+    color: rgb(238, 232, 232);
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 15px;
+}
+
+#calender_icon_text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #40535a;
+    position: absolute;
+    bottom: 520px;
+    right: 150px;
+}
+
+
+
+#calender_icon_p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #40535a;
+    position: absolute;
+    bottom: 470px;
+    right: 140px;
+}
+
+
+#users {
+    background: #09c;
+    color: rgb(238, 232, 232);
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 390px;
+    right: 455px;
+}
+
+#user_icon_text_2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #40535a;
+  position: absolute;
+  bottom: 390px;
+  right: 225px;
+}
+
+#user_icon_p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #40535a;
+    position: absolute;
+    bottom: 340px;
+    right: 185px;
+}
+
+#thumb {
+    background: #09c;
+    color: rgb(238, 232, 232);
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 240px;
+    right: 455px;
+}
+
+#thumb_icon_text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #40535a;
+    position: absolute;
+    bottom: 235px;
+    right: 160px;
+    
+}
+
+#thumb_icon_p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #40535a;
+    position: absolute;
+    bottom: 200px;
+    right: 136px;
+}
+
+  
+#header-appoint1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    display: inline-block;
+    position: relative;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(236, 24, 24, 0.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shiny 2s linear infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes shiny {
+    from { -webkit-mask-position: 150%; }
+    to { -webkit-mask-position: -50%; }
+}
+
+#form {
+    margin-top: -740px;
+    width: 58%;
+    background-color: #09c;
+    margin-bottom: 35px;
+}
+
+#dob {
+    height: 60%; 
+    
+}
+
+#text_apnt-head{
+  font: 3.2em/1.45 "Raleway", sans-serif;
+  color: #011a32;
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  font-weight: 500;
+   text-decoration-line: underline;
+  text-decoration-color: #011a32;
+}
+

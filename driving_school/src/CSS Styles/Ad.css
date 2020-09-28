@@ -1,0 +1,181 @@
+#ui_items {
+  margin-left: 100px;
+}
+
+#ui_seg {
+  max-width: auto;
+  margin-left: 10px;
+  margin-bottom: 55px;
+  border-bottom: 1.5px solid darkslategrey;
+
+}
+
+#horse_image {
+  margin-left: -60px; 
+  margin-top: 48px;
+}
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+.fire {
+  margin-top: 90px;
+  margin-left: -90px;
+  margin-right: 50px;
+  max-width: 1000px;
+  height: 10px;
+}
+
+.fire:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.Blazing {
+  display: inline-block;
+  margin: 0;
+  color: rgb(59, 59, 59);
+
+  line-height: 50px;
+  min-width: 50px;
+  outline: none;
+  vertical-align: middle;
+
+  text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange,
+    4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
+  animation: 1.3s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+  0% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow,
+      0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
+  }
+  25% {
+    text-shadow: 0 3px 20px red, 0 0 30px red, 0 0 20px orange, 0 0 5px yellow,
+      -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow;
+  }
+  50% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange,
+      -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow,
+      2px -20px 30px rgba(255, 255, 0, 0.5);
+  }
+  75% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange,
+      3px -5px 5px yellow, -4px -10px 10px yellow,
+      2px -20px 30px rgba(255, 255, 0, 0.5), 0px -25px 40px rgba(255, 255, 0, 0);
+  }
+  100% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px red, 0 0 0 red,
+      0 0 5px red, -2px -5px 5px red, 4px -10px 10px red;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+* {
+  box-sizing: border-box;
+}
+.container {
+  align-content: center;
+  width: auto;
+  margin: auto;
+
+}
+@keyframes topAnimation {
+  from {
+    transform: translate(0rem, 0);
+  }
+  to {
+    transform: translate(0rem, 3.5rem);
+  }
+}
+@keyframes bottomAnimation {
+  from {
+    transform: translate(-11.5rem, 0);
+  }
+  to {
+    transform: translate(0rem, 0);
+  }
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: 0.15em;
+  margin: 0 auto;
+  padding: 1rem 2.5rem;
+  background: transparent;
+  outline: none;
+  font-size: 28px;
+  color: #111;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
+  z-index: 10;
+  float: right;
+  margin-top: -41px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  
+  
+}
+
+.btn::after,
+.btn::before {
+  border: 0;
+  content: "";
+  position: absolute;
+  height: 42%;
+  width: 9%;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: -2;
+  border-radius: 50%;
+}
+.btn::before {
+  border: 0;
+  background-color: teal;
+  top: -0.75rem;
+  left: 0.5rem;
+  animation: topAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.25s
+    infinite alternate;
+}
+.btn::after {
+  background-color: #e74c3c;
+  top: 3rem;
+  left: 13rem;
+  animation: bottomAnimation 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.5s
+    infinite alternate;
+}
+.btn:hover {
+  color: white;
+}
+.btn:hover::before,
+.btn:hover::after {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  animation: none;
+}
+.btn:hover::after {
+  left: 0rem;
+}
+.btn:hover::before {
+  top: 0.5rem;
+  left: 0.35rem;
+}
+
+.adv {
+  margin-bottom: 26px;
+}
+
+#rental_scars {
+  margin-left: 20px;
+}
+
+#fire_text {
+  margin-bottom: 25px; 
+}
+
+#unsplash_car_fetched_image{
+  margin-left: -25px;
+}
