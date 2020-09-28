@@ -6,6 +6,7 @@ import { Slide } from "react-slideshow-image";
 import horse from "../../src/horse.png";
 import "../CSS Styles/Ad.css";
 import "react-slideshow-image/dist/styles.css";
+import Loader from './loader';
 
 class Ad extends React.Component {
   componentDidMount() {
@@ -17,8 +18,8 @@ class Ad extends React.Component {
       <div className="cc_text">
         <img
           src={horse}
-          alt="horsepower image"
-          style={{ marginLeft: "-70px", marginTop: "48px" }}
+          alt="horsepower"
+          id="horse_image"
         />
         <div className="dark fire">
           <h2 className="Blazing">5000+CC</h2>
@@ -103,33 +104,33 @@ class Ad extends React.Component {
       return {...image,header: headers[index], price: price[index], description: description[index],};
     });
 
-    console.log("Testing", noStyling);
-
     return noStyling.map((item) => {
       return (
-        <div className=" column">
-          <h2 style={{marginLeft: '20px'}}>Rental Supercars</h2>
+        <div className=" column" key={item.id}>
+          <h2 id="rental_scars">Rental Supercars:</h2>
           <div className="ui segment" id="ui_seg">
             <div className="ui items" id="ui_items">
-              <div className="item" style={{ marginBottom: "25px" }}>
-                {this.styledText()}
-                <div className="ui medium image">
-                  <img
-                    src={item.urls.regular}
-                    key={item.id}
-                    style={{ marginLeft: "-25px" }}
-                  />
-                </div>
-                <div className="content">
-                  <div className="header" style={{}}>
-                    {item.header}
+
+              <div className="item" id="fire_text">
+                  {this.styledText()}
+                  <div className="ui medium image">
+                    <img
+                      src={item.urls.regular}
+                      alt={item.urls.header}
+                      key={item.id}
+                      id="unsplash_car_fetched_image"
+                    />
                   </div>
-                  <div className="meta">
-                    <h3 className="price">{item.price}</h3>
-                    <span className="stay">1 Month</span>
+                  <div className="content">
+                    <div className="header" style={{}}>
+                      {item.header}
+                    </div>
+                    <div className="meta">
+                      <h3 className="price">{item.price}</h3>
+                      <span className="stay">1 Month</span>
+                    </div>
+                    <div className="description">{item.description}</div>
                   </div>
-                  <div className="description">{item.description}</div>
-                </div>
               </div>
             </div>
           </div>
@@ -141,32 +142,34 @@ class Ad extends React.Component {
   render() {
     if (this.props.photos.length !== 0) {
       const list = this.renderList();
-      const test2 = list.map((item) => {
+      const entire_ad = list.map((item) => {
         return (
-          <div className="each-slide">
+          <div className="each-slide" key={item}>
             <div>{item}</div>
           </div>
           
         );
       });
-      const test_2 = () => {
+      const slide_show = () => {
         return (
           <div>
-            <Slide easing="ease">{test2}</Slide>
+            <Slide easing="ease">{entire_ad}</Slide>
           </div>
         );
       };
 
       return (
         <div className="adv">
-          {test_2()}
+          {slide_show()}
           <Link to="/book-apnt" className="btn" onClick={() => this.props.activeMenu("appointment")}>
             Book Now !
           </Link>
         </div>
       );
     } else {
-      return <p>To be loaded</p>;
+      return (
+        <Loader message="Loading Rental Cars. Please Wait."/>
+      );
     }
   }
 }

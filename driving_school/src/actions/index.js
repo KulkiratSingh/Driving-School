@@ -9,6 +9,12 @@ export const fetchPhotos = () => {
   };
 };
 
+export const loading = (item) => {
+  return {
+    type: "LOADING",
+    payload: item,
+  };
+};
 
 export const activeMenu = (item) => {
   return {

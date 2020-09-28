@@ -1,10 +1,8 @@
 import React from "react";
-import { Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../CSS Styles/Header.css";
 import { activeMenu } from "../actions";
 import { connect } from "react-redux";
-import GoogleAuth from './GoogleAuth';
-
 
 class Header extends React.Component {
   onInputClick = (path) => {
@@ -13,7 +11,6 @@ class Header extends React.Component {
 
   render() {
     const activeStatus = window.location.pathname;
-    console.log(window.location)
     return (
       <>
         <div className="ui top fixed inverted menu">
@@ -53,7 +50,6 @@ class Header extends React.Component {
             Announcement
           </Link>
 
-         
           <Link
             to="/as"
             className={`${activeStatus === "/as" ? "active" : ""} item`}
@@ -72,8 +68,8 @@ class Header extends React.Component {
               <i className="phone icon"></i>
               Contact Us
             </Link>
-            <GoogleAuth/>
-        </div>
+          </div>
+        
         </div>
         <br></br>
         <br></br>

@@ -1,45 +1,65 @@
 .column3 {
     float: left !important;
-    width: 33.3% !important;
+    width: 31.3% !important;
     margin-bottom: 16px !important;
     padding: 0 8px !important;
+    margin-left: 90px !important;
+    position: relative;
 }
 .column4 {
     float: left !important;
-    width: 33.3% !important;
+    width: 31.3% !important;
     margin-bottom: 16px !important;
     padding: 0 8px !important;
-    margin-left: -415px;
+    margin-left: 190px !important;
+    position: relative;
+    margin-left: -10px !important ;
+
+}
+.column5 {
+    float: left !important;
+    width: 31.3% !important;
+    margin-bottom: 16px !important;
+    padding: 0 8px !important;
+    margin-left: 190px !important;
+    position: relative;
+    margin-left: -10px !important ;
+
 }
     
-    .card1 {
+.card1 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
     margin: 8px !important;
     background-color: black;
-    margin-top: -400px !important;
-    margin-left: 60px !important; 
-
     border: solid 1px rgb(184, 184, 184);
-
     font: 1em/1.45 "Raleway", sans-serif;
+    
    
-    }
+}
 
-    .card2{
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+    margin: 8px !important;
+    background-color: black;
+    border: solid 1px rgb(184, 184, 184);
+    font: 1em/1.45 "Raleway", sans-serif;
+}
+
+    .card3{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
         margin: 8px !important;
         background-color: black;
-        margin-top: -140px !important;
-        margin-left: 60px !important; 
-    
         border: solid 1px rgb(184, 184, 184);
-    
         font: 1em/1.45 "Raleway", sans-serif;
+      
     }
 
     .font-styling{
         font-family: Arial, Helvetica, sans-serif !important; 
+       
+       
     }
+   
     .about-section {
         color: #bbc3c8 !important; 
         font-family: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -51,7 +71,13 @@
         background-color: #5e2750 !important;
         
     }
-
+#ab-sty {
+   
+    margin: 0 !important; 
+    font-size: 15px !important;
+    
+    background-color: #5e2750 !important;
+}
     
     .container3 {
     padding: 0 16px !important;
@@ -66,7 +92,20 @@
     
     .title-about {
     color: grey !important;
+    font: 1.1em/1.45 "Raleway", sans-serif;
    
+   
+  
+    }
+
+    .job-desc{
+         color: #babbbb;
+         font: 1.1em/1.45 "Raleway", sans-serif;
+    }
+    
+    .job-email{
+        color: #babbbb;
+        font: 1.1em/1.45 "Raleway", sans-serif;
     }
     
     .button3 {
@@ -115,7 +154,7 @@
         float: right !important;
         width: 25%;
         height: 10%;
-        border-radius: 42px;
+        border-radius: 100px;
         margin-top: -10px;
         margin-right: -5px;
 
@@ -123,6 +162,7 @@
 
     #card-first-name {
         margin-top: 20px;
+        color: #babbbb;
     }
 
     .about-us-desc {
@@ -199,7 +239,7 @@
         border-left: 1px solid #fff; 
     }
 
-    #our-team {
+    #reliable {
         font-weight: 300 !important;
         font: 2.5em/1.45 "Raleway", sans-serif;
         text-transform: uppercase;
@@ -214,5 +254,47 @@
         margin-left: 60px;
     }
 
+    #trust{
+        font-weight: 300 !important;
+        font: 2.5em/1.45 "Raleway", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: white;
+        text-indent: 20px;
+        left: 50px;
+     
+        margin-top: 140px !important;
+        border-left: 1px solid #fff; 
+        position: absolute;
+        margin-left: 60px;
+    }
+
+    #valuable{
+        font-weight: 300 !important;
+        font: 2.5em/1.45 "Raleway", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: white;
+        text-indent: 20px;
+        left: 50px;
+     
+        margin-top: 240px !important;
+        border-left: 1px solid #fff; 
+        position: absolute;
+        margin-left: 60px; 
+    }
+
+    #our_team{
+        font-weight: 300 !important;
+        font: 2.5em/1.45 "Raleway", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: white;
+        text-indent: 20px;
+        left: 50px;
+        border-left: 1px solid #fff; 
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
   
     

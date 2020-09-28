@@ -3,6 +3,15 @@ h1 {
   position: relative;
 }
 
+#binary-sch {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25em;
+  margin-top: 15px;
+  margin-bottom: -10px;
+
+}
+
 img {
   float: left;
   margin-left: 330px;
@@ -12,9 +21,12 @@ img {
 
 .main_page {
   padding: 160px;
+  padding-right: 20px;
   background-image: url(road2.jpeg);
   background-position: absolute;
   background-size: 100% 100%;
+  border-top: 3px solid orangered;
+  border-bottom: 3px solid orangered;
   margin-bottom: 20px;
   padding-bottom: 3.5cm;
 }
@@ -36,6 +48,7 @@ img {
   bottom: 100px;
   text-align: center;
 }
+
 
 #more_info_button {
   margin-left: 370px;
@@ -109,16 +122,20 @@ img {
 }
 
 #book_now_button {
-  margin-inline-start: 240px;
+  position: absolute;
+  bottom: 8px;
+  right: 25px;
 }
 
 #double_vertical_table {
-  width: 60%;
-  height: 60%;
-  margin-left: 20px;
-  margin-bottom: -130px; 
+  max-width: 98.5%;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  border-bottom: 3px solid darkturquoise;
+
   /* marginbottom was -50px */
 }
+
 
 .seg {
   min-height: 12rem !important;
@@ -132,23 +149,41 @@ img {
 
 #t_grid {
   margin-left: 1060px !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25em;
+}
+
+#who-are-we{
+  margin-top: 10px;
+  font-size: 1.0rem;
+  margin-right: -10px;
+}
+
+#what-we-offer{
+  margin-top: 23px;
+  font-size: 1.1rem;
 }
 
 #placeholder_text {
-  float: top;
-  margin-bottom: 100px;
-  margin-top: 60px;
+  margin-left: 10px;
+  margin-top: 5px;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
 }
 
 #placeholder_text2 {
-  float: top;
-  top: -90px;
+  text-transform: uppercase;
+ 
+  
 }
 
 #placeholder_text3 {
-  float: top;
-  top: -90px;
+  text-transform: uppercase;
+  max-width: 100%;
+  font-size: 26px;
 }
+
 
 #placeholder_text4 {
   font-size: 20px;
@@ -228,27 +263,23 @@ img {
   text-align: center;
 }
 .wrapper h1 {
-  top: -42px;
-  margin-left: 1130px;
-  text-align: center;
-
+  top: 15px;
+  right: 20px;
   color: #fff;
-  font-size: 28px;
+  font-size: 35px;
   font-family: 'Bangers', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-family: 'Bangers', cursive;
  
-  background: linear-gradient(to right, #000000 10%, rgb(0, 0, 0) 50%, rgb(255, 115, 0) 100%);
-  background-size: auto auto;
-  background-clip: border-box;
+  background: linear-gradient(to right, #f1f1f1 10%, rgb(255, 255, 255) 50%, darkturquoise 100%);
+
   background-size: 200% auto;
-  color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 10.5s linear infinite;
-  display: inline-block;
+  
 }
 
 @keyframes textclip {

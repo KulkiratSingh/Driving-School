@@ -1,233 +1,210 @@
 #cnt-us {
-        background-color: #354355;
+    background-color: #354355;
 }
 
-.cnct_img {
-    width: 1366px;
-    height: 385px;
-    object-fit: cover;
-    max-height: 450px;
-    display: block;
-    border-style: none;
-    margin: auto;
-    margin-top: -12px;
-    margin-left: -14px;
-    position: relative;
-    margin-bottom: 10px;
-    border-bottom: 5px groove #ffffff;
-  }
+/* #tyre{
+   margin-top: -520px;
+   margin-left: 700px;  
+} */
 
-  #cnct_img_text {
-    font-weight: 300 !important;
-    font: 3em/1.45 "Raleway", sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    width: 670px;
-    color: white;
-    
-    position: absolute;
-    top: -50px;
-    left: 650px;
-    transform: translate(-50%, -50%);
 
-    text-decoration-line: underline;
-    text-decoration-color: #ee7d88;
- }
-#cnct_img_text_2 {
-    line-height: 1.61111em;
-    font-weight: 500;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-weight: 400;
-    font: 1em/1.45 "Raleway", sans-serif;
-    color: white;
-    letter-spacing: 0.5px;
+.cnct-img {
+  padding: 190px;
 
-    position: relative;
-    top: -20px;
-    left: 380px !important;
-
-/* 
-    border-bottom: 1px solid #ee7d88;
-    border-bottom-width: 2px; */
+  background-image: url(Capture.JPG);
+  background-position: absolute;
+  background-size: 100% 100%;
+  border-bottom: 5px groove #fff
 }
+
+
 
 #conv_text {
-    margin-top: 30px;
-    left: 104%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font: 2.5em/1.45 "Raleway", sans-serif;
-    color: #ffffff;
+margin-top: 50px;
+left: 104%;
+width: 100%;
+transform: translate(-50%, -50%);
+font: 2.5em/1.45 "Raleway", sans-serif;
+color: #ffffff;
 }
 
 #cnctus-text {
-    font: 2.2em/1.45 "Raleway", sans-serif;
-    text-transform: uppercase;
-    color: #fc6c58;
-    position: relative;
-    /* display: inline-block; */
-    /* padding-bottom: 8px; */
-    margin: 0 0 2rem;
-    font-weight: 700;
-    margin-left: 70px;
-    /* text-decoration: none; */
+font: 2.2em/1.45 "Raleway", sans-serif;
+text-transform: uppercase;
+color: #fc6c58;
+position: relative;
+/* display: inline-block; */
+/* padding-bottom: 8px; */
+margin: 0 0 2rem;
+font-weight: 700;
+margin-left: 70px;
+/* text-decoration: none; */
 }
 
 .cnctus::after {
-    content: "";
-    height: 3px;
-    width: 25%;
-    position: absolute;
-    bottom: 0;
-    left: 3px;
-    background: #f87e6e;
-    margin-bottom: -6px;
-    
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(236, 24, 24, 0.6) 70%);
-    -webkit-mask-size: 200%;
-    animation: shiny 3s linear infinite;
+content: "";
+height: 3px;
+width: 25%;
+position: absolute;
+bottom: 0;
+left: 3px;
+background: #f87e6e;
+margin-bottom: -6px;
+
+-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(236, 24, 24, 0.6) 70%);
+-webkit-mask-size: 200%;
+animation: shiny 3s linear infinite;
 }
 
 @keyframes shiny {
-    from { -webkit-mask-position: 150%; }
-    to { -webkit-mask-position: -50%; }
+from { -webkit-mask-position: 150%; }
+to { -webkit-mask-position: -50%; }
 }
 
 #form2 {
-    margin-top: 10px;
-    margin-left: 80px;
-    width: 51%;
-    background-color: #354355;
-    
-    border: 3px solid #ccc;
-    margin-bottom: 50px;
+margin-top: 20px;
+margin-left: 560px;
+width: 57%;
+
+background-color: #354355;
+border: 3px solid #ccc;
+margin-bottom: 50px;
+position: relative;
+}
+
+#cnt-cont-1{
+    width: 60% !important;
+    margin-left: 0px !important;
+}
+
+#cnt-cont-2{
+    width: 60% !important;
+    border: 13px solid rgb(194, 17, 17) !important;
 }
 
 #two_field {
-    width: 103.5%;
-    padding: 1rem 1.2rem;
-    margin-bottom: 1rem;
-    
-   
+width: 103.5%;
+padding: 1rem 1.2rem;
+margin-bottom: 1rem;
 }
 
 .text-below-cnct-us {
-    color: #fff;
-    font: 1.5em/1.45 "Raleway", sans-serif;
-    margin-left: 70px;   
+color: #fff;
+font: 1.5em/1.45 "Raleway", sans-serif;
+margin-left: 70px;   
 }
 
 
 #label {
-    color:hsla(0,0%,100%,.5);
-    font-family: Open Sans,sans-serif;
+color:hsla(0,0%,100%,.5);
+font-family: Open Sans,sans-serif;
 }
 
 #subject {
-    width: 98.5%;
-    margin-bottom: 10px;
+width: 98.5%;
+margin-bottom: 10px;
 }
 
 #message {
-    width: 98%;
-    padding: 5rem 1.2rem;
-    padding-top: 0.8rem;
-  
+width: 98%;
+padding: 5rem 1.2rem;
+padding-top: 0.8rem;
+
 }
 
 #one_field {
-    margin-left: 15px;
+margin-left: 15px;
 }
 
 #one_field_2 {
-    margin-left: 15px;
+margin-left: 15px;
 }
 
 
 .send-butn{
-    padding: 8px 14px;
-    border: 3px solid #fc6c58;
-    color: #fc6c58;
-    transition: all .3s ease-in !important;
-    margin-top: 1.4rem;
-    margin-bottom: 0.3rem;
-     
-    font-family: inherit;
-    font-size: inherit;
-    background: none;
-    
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 700;
-    outline: none;
-    position: relative;
-    margin-left: 15px;
+padding: 8px 14px;
+border: 3px solid #fc6c58;
+color: #fc6c58;
+transition: all .3s ease-in !important;
+margin-top: 1.4rem;
+margin-bottom: 0.3rem;
+ 
+font-family: inherit;
+font-size: inherit;
+background: none;
+
+display: inline-block;
+text-transform: uppercase;
+font-weight: 700;
+outline: none;
+position: relative;
+margin-left: 15px;
 
 }
 
 .send-butn:hover {
-    background-color:#fc6c58;;
-    color: black;
-    cursor: pointer;
+background-color:#fc6c58;;
+color: black;
+cursor: pointer;
 }
 
 #recap {
-    margin-top: 30px !important;
-    margin-left: 15px !important;
+margin-top: 30px !important;
+margin-left: 15px !important;
 }
 
 
 #cnct-phn-icon {
-    width: 400px;
+    width: 90px;
     height: 70px;
-    margin-top: -500px;
-    margin-left: 700px;
+    margin-top: -20px;
+    margin-left: 125px;
 }
 
-.cnct_phone_number {
+.call_us_here {
     font-size: 1.6em;
-    color: white;
-    margin-left: 950px;
-    margin-top: -483px;
-    width: 100%;
+    color: #fff;
+    margin-top: -510px;
+    margin-bottom: 519px !important;
     cursor: pointer;
 }
 
 #cnct-email-icon {
-    width: 400px;
+    width: 100px;
     height: 70px;
-    margin-top: -380px;
-    margin-left: 700px;
+    margin-top: -400px;
+    margin-left: 120px !important;
 }
 
-.cnct_email_addr {
+.email_us_here {
     font-size: 1.6em;
-    color: white;
-    margin-left: 950px;
-    margin-top: 90px;
-    width: 100%;
+    color: #fff;
+    margin-top: -380px;
+    margin-bottom: 349px !important;
+    margin-left: 225px;
     cursor: pointer;
 }
 
 #cnct-address-icon{
     width: 80px;
     height: 80px;
-    margin-top: -258px;
-    margin-left: 862px;
+    margin-top: -230px;
+    margin-left: 130px !important;
 }
 
 .cnct_address {
     font-size: 1.6em;
-    color: white;
-    margin-left: 950px;
-    margin-top: 90px;
-    width: 100%;
+    color: #fff;
+    margin-top: -210px;
+    margin-bottom: 108px !important;
+    margin-left: 225px;
 }
 
 #smile {
-    width: 45%;
-    padding-right: 430px;
-    margin-left: 580px;
+    width: 35%;
+    padding-right: 60px;
+}
+
+#your_email{
+    width: 98%;
 }

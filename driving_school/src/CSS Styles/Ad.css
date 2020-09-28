@@ -3,16 +3,22 @@
 }
 
 #ui_seg {
-  width: 1300px;
-  margin-left: 20px;
-  margin-bottom: 37px;
+  max-width: auto;
+  margin-left: 10px;
+  margin-bottom: 55px;
+  border-bottom: 1.5px solid darkslategrey;
+
 }
 
+#horse_image {
+  margin-left: -60px; 
+  margin-top: 48px;
+}
 @import url(https://fonts.googleapis.com/css?family=Akronim);
 
 .fire {
   margin-top: 90px;
-  margin-left: -100px;
+  margin-left: -90px;
   margin-right: 50px;
   max-width: 1000px;
   height: 10px;
@@ -95,7 +101,6 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  border: 0;
   position: relative;
   letter-spacing: 0.15em;
   margin: 0 auto;
@@ -105,7 +110,12 @@
   font-size: 28px;
   color: #111;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.15s;
-  margin-left: 1050px;
+  z-index: 10;
+  float: right;
+  margin-top: -41px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  
   
 }
 
@@ -114,8 +124,8 @@
   border: 0;
   content: "";
   position: absolute;
-  height: 40%;
-  width: 10%;
+  height: 42%;
+  width: 9%;
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   z-index: -2;
   border-radius: 50%;
@@ -156,4 +166,16 @@
 
 .adv {
   margin-bottom: 26px;
+}
+
+#rental_scars {
+  margin-left: 20px;
+}
+
+#fire_text {
+  margin-bottom: 25px; 
+}
+
+#unsplash_car_fetched_image{
+  margin-left: -25px;
 }

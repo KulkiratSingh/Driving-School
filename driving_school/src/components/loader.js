@@ -3,8 +3,8 @@ import '../CSS Styles/Announcement.css';
 
 const Loader = (props) => {
     return (
-        <div class="ui active inverted dimmer" id="test123">
-        <div class="ui text loader"> {props.message}</div>
+        <div className="ui active inverted dimmer" id="test123">
+        <div className="ui text loader"> {props.message}</div>
         </div>
     )
 }
