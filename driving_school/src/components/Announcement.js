@@ -16,13 +16,13 @@ class Announcement extends React.Component {
       <div className="ancmt-img">
          {/* text */}
          <div id="containerr">
-              <h1 id="ancmt_head">Announcemenrtss & News</h1>
+              <h1 id="ancmt_head">Announeeeecements & News</h1>
             </div>
            {/* text ends */}
       </div>
 
     )
-  }
+  
 
   
   renderOurOffers() {
